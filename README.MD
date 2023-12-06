@@ -16,7 +16,7 @@
 
 编译完成之后直接插入内核即可完成文件名隐藏，我只隐藏了 `evil.php` `EVILBACKDOOR`这两个文件一个作为php木马，一个作为隐藏驱动文件，为后续setsuperuser做准备，当然....有别的办法
 
-![image-20231206234952471](.\img\image-20231206234952471.png)
+![image-20231206234952471](https://raw.githubusercontent.com/yifaang/picture/main/test/image-20231206234952471.png)
 
 ### 2.2 隐藏ps命令进程
 
@@ -24,25 +24,25 @@
 
 如下情况，程序正常执行，ps命令无法找到
 
-![image-20231206235544391](.\img\image-20231206235544391.png)
+![image-20231206235544391](https://raw.githubusercontent.com/yifaang/picture/main/test/image-20231206235544391.png)
 
 ### 2.3 lsmod命令隐藏内核模块
 
 注册完成保护进程后，再次查看lsmod中的信息，已经无法找到插入的内核程序
 
-![image-20231206235705634](.\img\image-20231206235705634.png)
+![image-20231206235705634](https://raw.githubusercontent.com/yifaang/picture/main/test/image-20231206235705634.png)
 
 ### 2.4 不死进程
 
 通过kill命令向程序发送结束信号，已经无法结束程序
 
-![image-20231206235800857](.\img\image-20231206235800857.png)
+![image-20231206235800857](https://raw.githubusercontent.com/yifaang/picture/main/test/image-20231206235800857.png)
 
 ### 2.5 netstat隐藏
 
 隐藏之后无法看到远程连接的端口 打开的是因为4444在监听
 
-![image-20231207000439956](.\img\image-20231207000439956.png)
+![image-20231207000439956](https://raw.githubusercontent.com/yifaang/picture/main/test/image-20231207000439956.png)
 
 ## 3. 程序更新
 程序大概率...？还会更新吧.... 
